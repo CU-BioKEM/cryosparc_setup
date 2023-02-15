@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-IP=10.225.227.104
+IP=
 FILE=~/cryosparc/cryosparc_master/cryosparc_command/command_core/__init__.py
 SEARCH="'--master_hostname', os.environ\['CRYOSPARC_MASTER_HOSTNAME'],"
 REPLACE="'--master_hostname', '${IP}',"
