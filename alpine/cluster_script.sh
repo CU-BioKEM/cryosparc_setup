@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=aa100
 #SBATCH --qos=normal
+#SBATCH --account=ucb303_asc1
 #SBATCH --nodes=1
 #SBATCH --ntasks={{ num_cpu }}
 #SBATCH --gres=gpu:{{ num_gpu }}
