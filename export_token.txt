@@ -1,2 +1,2 @@
-SLURM_JWT=
 export SLURM_CONF=/etc/slurm/slurm.conf
+export SLURM_JWT=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4MzM2MDAzMjQsImlhdCI6MTY3NTkyMDMyNCwic3VuIjoiYmlva2VtIn0.vBAUFNiE0wRuFxG_XNDSC35ow0GfSLKAqPdVcCUt6QA

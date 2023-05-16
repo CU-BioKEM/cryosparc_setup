@@ -7,8 +7,10 @@
 #SBATCH --gres=gpu:{{ num_gpu }}
 #SBATCH --time=24:00:00
 #SBATCH --mem={{ (ram_gb*2)|int }}GB
-#SBATCH --job-name=cspark_{{ project_uid }}_{{ job_uid }}
+#SBATCH --job-name=cs-luger{{ project_uid }}_{{ job_uid }}
 #SBATCH --output={{ job_log_path_abs }}
 #SBATCH --error={{ job_log_path_abs }}
+
+source /programs/sbgrid.shrc
 
 {{ run_cmd }}

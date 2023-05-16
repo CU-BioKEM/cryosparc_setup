@@ -1,5 +1,5 @@
-cryosparcm createuser --email "@colorado.edu" \
+cryosparcm createuser --email "shla9937@colorado.edu" \
                       --password "12345" \
-                      --username "" \
-                      --firstname "" \
-                      --lastname ""
+                      --username "shla9937" \
+                      --firstname "Shawn" \
+                      --lastname "Laursen"

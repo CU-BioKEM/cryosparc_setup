@@ -3,6 +3,8 @@
 #SBATCH --qos=blanca-biokem
 #SBATCH --account=blanca-biokem
 #SBATCH --nodes=1
+#SBATCH --time=7-00:00:00
+#SBATCH --nodelist=bgpu-biokem1
 #SBATCH --ntasks={{ num_cpu }}
 #SBATCH --gres=gpu:{{ num_gpu }}
 #SBATCH --time=24:00:00
