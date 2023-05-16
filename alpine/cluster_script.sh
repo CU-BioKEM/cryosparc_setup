@@ -11,6 +11,4 @@
 #SBATCH --output={{ job_log_path_abs }}
 #SBATCH --error={{ job_log_path_abs }}
 
-source /programs/sbgrid.shrc
-
 {{ run_cmd }}
